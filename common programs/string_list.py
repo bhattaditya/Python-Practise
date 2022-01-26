@@ -1,5 +1,5 @@
 """
-Checks whether a luterals are alphanumeric and numbers should be less than or equal to 5.
+Checks whether literals are alphanumeric and numbers should be less than or equal to 5.
 """
 
 def str_to_list(str):
@@ -12,5 +12,6 @@ def str_to_list(str):
 			if i.isalnum():
 				s.append(i)
 	print(s)
+
 if __name__ == "__main__":
 	str_to_list('hello!2#43457893./\[][3')
