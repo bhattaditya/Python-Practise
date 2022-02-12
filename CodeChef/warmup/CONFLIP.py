@@ -8,7 +8,7 @@ for _ in range(t):
         
         if initial_state == 1 and guess == 1 or initial_state == 2 and guess == 2:
             print(count)
-        elif initial_state == 1 and guess == 2 or initial_state == 2 and guess ==1:
+        elif initial_state == 1 and guess == 2 or initial_state == 2 and guess == 1:
             print(rounds-count)
             
         # else can be elif
